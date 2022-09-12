@@ -2,10 +2,10 @@
   "scripts": {
     "dev:eleventy": "ELEVENTY_ENV=dev npx @11ty/eleventy --serve",
     "dev:sass": "sass  --no-source-map --watch src/sass:./_tmp",
-    "build:eleventy": "ELEVENTY_ENV=dev npx @11ty/eleventy --pathprefix=bonsai",
+    "build:eleventy": "ELEVENTY_ENV=dev npx @11ty/eleventy --pathprefix=nowtcss",
     "build:sass": "sass  --no-source-map src/sass:./_tmp",
     "build:postcss": "postcss --config src/sass ./_tmp/*.css -r --verbose",
-    "minify:eleventy": "ELEVENTY_ENV=prod npx @11ty/eleventy --pathprefix=bonsai",
+    "minify:eleventy": "ELEVENTY_ENV=prod npx @11ty/eleventy --pathprefix=nowtcss",
     "build": "NODE_ENV=dev npm-run-all build:sass build:postcss build:eleventy",
     "minify": "NODE_ENV=production npm-run-all build:sass build:postcss minify:eleventy",
     "start": "npm-run-all --parallel dev:*"
@@ -28,13 +28,13 @@
     "sass": "^1.54.8",
     "stylelint": "^14.11.0"
   },
-  "name": "bonsai",
+  "name": "Nowt CSS",
   "version": "1.2.2",
-  "description": "Bonsai, a largely classless, blazing fast and super light-weight CSS framework for modern browsers.",
+  "description": "Nowt css, a largely classless, blazing fast and super light-weight CSS framework for modern browsers.",
   "main": ".eleventy.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/woodcock3/bonsai.git"
+    "url": "git+https://github.com/nowtstudio/nowtcss.git"
   },
   "keywords": [
     "css",
@@ -45,8 +45,8 @@
   ],
   "author": "woodcock3",
   "license": "ISC",
-  "bugs": "https://github.com/woodcock3/bonsai/issues",
-  "homepage": "https://github.com/woodcock3/bonsai",
+  "bugs": "https://github.com/woodcock3/nowtstudio/issues",
+  "homepage": "https://github.com/nowtstudio/nowtcss",
   "browserslist": [
     "> 0.5%",
     "not IE 11"
