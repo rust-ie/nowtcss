@@ -1,0 +1,14 @@
+/* Flex */
+@use '../mixins.scss' as m;
+
+@include m.svar-mq (flex, --fx);
+@include m.svar-mq (flex-direction, --fd);
+@include m.svar-mq (flex-wrap, --fw);
+@include m.svar-mq (align-content, --ac);
+@include m.svar-mq (align-items, --ai);
+@include m.svar-mq (align-self, --as);
+@include m.svar-mq (justify-content, --jc);
+@include m.svar-mq (flex-grow, --fg);
+@include m.svar-mq (flex-shrink, --fs);
+@include m.svar-mq (flex-basis, --fb);
+@include m.svar-mq (order, --o);

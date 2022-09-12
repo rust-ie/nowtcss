@@ -1,0 +1,51 @@
+@use 'variables.scss' as *;
+
+@mixin svar($prop, $value) {
+  .#{$value}, [style*="#{$value}:"] {
+    #{$prop}: var(#{$value});
+  }
+}
+
+@mixin svar-mq($prop, $value) {
+  .#{$value}, [style*="#{$value}:"] {
+    #{$prop}: var(#{$value});
+  }
+  @media only screen and (min-width: $small) {
+    .#{$value}-sm, [style*="#{$value}-sm:"] {
+      #{$prop}: var(#{$value}-sm);
+    }
+  }
+  @media only screen and (min-width: $medium) {
+    .#{$value}-md, [style*="#{$value}-md:"] {
+      #{$prop}: var(#{$value}-md);
+    }
+  }
+  @media only screen and (min-width: $large) {
+    .#{$value}-lg, [style*="#{$value}-lg:"] {
+      #{$prop}: var(#{$value}-lg);
+    }
+  }
+  @media only screen and (min-width: $xlarge) {
+    .#{$value}-xl, [style*="#{$value}-xl:"] {
+      #{$prop}: var(#{$value}-xl);
+    }
+  }
+}
+
+@mixin svar-hover($prop, $value) {
+  .#{$value}:hover, [style*="#{$value}:"]:hover {
+    #{$prop}: var(#{$value}), var(--#{$prop});
+  }
+}
+
+@mixin svar-before($prop, $value) {
+  .#{$value}::before, [style*="#{$value}:"]::before {
+    #{$prop}: var(#{$value}), var(--#{$prop});
+  }
+}
+
+@mixin svar-after($prop, $value) {
+  .#{$value}::after, [style*="#{$value}:"]::after {
+    #{$prop}: var(#{$value}), var(--#{$prop});
+  }
+}
