@@ -28,7 +28,7 @@
     "sass": "^1.54.9",
     "stylelint": "^14.11.0"
   },
-  "name": "Nowt CSS",
+  "name": "NowtCSS",
   "version": "1.2.2",
   "description": "Nowt css, a largely classless, blazing fast and super light-weight CSS framework for modern browsers.",
   "main": ".eleventy.js",
