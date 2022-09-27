@@ -27,13 +27,13 @@ jobs:
         uses: battila7/get-version-action@v2
 
       - name: Zip files
-        run: zip -jr bonsai-dist.zip dist/*
+        run: zip -jr nowtcss-dist.zip dist/*
 
       - name: Upload zip to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: bonsai-dist.zip
-          asset_name: bonsai-${{ steps.get_version.outputs.version }}-dist.zip
+          file: nowtcss-dist.zip
+          asset_name: nowtcss-${{ steps.get_version.outputs.version }}-dist.zip
           tag: ${{ github.ref }}
           overwrite: true
