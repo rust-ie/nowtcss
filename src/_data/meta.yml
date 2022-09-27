@@ -1,10 +1,10 @@
 env: process.env.ELEVENTY_ENV
 
 # Authoring
-name: Bonsai SASS
-tagline: A Utility Complete SASS Framework for less than 55kb (10kb gzipped) | Bonsai.sass
+name: Nowt CSS
+tagline: A Utility Complete SASS Framework for less than 45kb (10kb gzipped) | Nowtcss
 description: A complete CSS solution allowing you to build beautifully crafted web interfaces with ease.
 author: Rusticola
 myurl: https://rusticola.co.uk/
-github_url: https://github.com/woodcock3/bonsai
+github_url: https://github.com/nowtstudio/nowtcss
 twitter:
