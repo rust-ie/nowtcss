@@ -30,7 +30,7 @@
   },
   "name": "NowtCSS",
   "version": "1.2.2",
-  "description": "Nowt css, a largely classless, blazing fast and super light-weight CSS framework for modern browsers.",
+  "description": "Nowt css, a utility first, blazing fast and super light-weight CSS framework for modern browsers.",
   "main": ".eleventy.js",
   "repository": {
     "type": "git",
@@ -45,7 +45,7 @@
   ],
   "author": "woodcock3",
   "license": "ISC",
-  "bugs": "https://github.com/woodcock3/nowtstudio/issues",
+  "bugs": "https://github.com/nowtstudio/issues",
   "homepage": "https://github.com/nowtstudio/nowtcss",
   "browserslist": [
     "> 0.5%",
