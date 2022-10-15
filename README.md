@@ -1,7 +1,3 @@
-<a href="https://github.com/nowtstudio/nowtcss"><img
-  src="https://www.joomla51.com/images/bedrock.png" alt="Nowt CSS Logo"
-  width="149" height="206"></a>
-
 # Nowtcss
 
 **A complete Utility First CSS Framework for less than 45 KB (8 KB Gzipped) and if implimenting [purgecss](https://purgecss.com) likely under 10KB**
