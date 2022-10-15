@@ -15,7 +15,7 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.12",
     "cssnano": "^5.1.13",
-    "esbuild": "^0.15.10",
+    "esbuild": "^0.15.11",
     "glob-all": "^3.3.0",
     "html-minifier": "^4.0.0",
     "js-yaml": "^4.1.0",
